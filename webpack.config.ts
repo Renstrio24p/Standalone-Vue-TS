@@ -42,7 +42,7 @@ module.exports = ( argv: module) => {
       path: path.resolve(__dirname, './dist'),
       filename: 'assets/[name].[contenthash].js',
       chunkFilename: 'assets/[name].[contenthash].js',
-      publicPath: '/',
+      // publicPath: '/',
     },
     target: 'web',
     devServer: devServerOptions,
